@@ -48,3 +48,4 @@ c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\Churrasco
 c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\bin\Microsoft.Owin.Security.OAuth.xml
 c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\obj\Release\ChurrascoAgil.dll
 c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\obj\Release\ChurrascoAgil.pdb
+c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\obj\Release\ChurrascoAgil.csprojResolveAssemblyReference.cache
