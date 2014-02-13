@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChurrascoAgil", "ChurrascoAgil\ChurrascoAgil.csproj", "{5A30BA80-3C04-495E-B5CA-498590526F9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChurrascoAgil.Utils", "ChurrascoAgil.Utils\ChurrascoAgil.Utils.csproj", "{4253FE55-561C-47CB-B419-54F6B70A9149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestChurrascoAgil", "UnitTestChurrascoAgil\UnitTestChurrascoAgil.csproj", "{200215BB-8E69-44F3-8E11-23D08B8B7150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4253FE55-561C-47CB-B419-54F6B70A9149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4253FE55-561C-47CB-B419-54F6B70A9149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4253FE55-561C-47CB-B419-54F6B70A9149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200215BB-8E69-44F3-8E11-23D08B8B7150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200215BB-8E69-44F3-8E11-23D08B8B7150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200215BB-8E69-44F3-8E11-23D08B8B7150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200215BB-8E69-44F3-8E11-23D08B8B7150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
