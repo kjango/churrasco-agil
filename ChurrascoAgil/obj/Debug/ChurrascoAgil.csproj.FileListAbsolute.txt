@@ -49,3 +49,5 @@ c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\Churrasco
 c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\obj\Debug\ChurrascoAgil.csprojResolveAssemblyReference.cache
 c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\obj\Debug\ChurrascoAgil.dll
 c:\users\guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\obj\Debug\ChurrascoAgil.pdb
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\bin\ChurrascoAgil.Utils.dll
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil\bin\ChurrascoAgil.Utils.pdb
