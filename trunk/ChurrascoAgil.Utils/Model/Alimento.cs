@@ -8,10 +8,10 @@ namespace ChurrascoAgil.Utils.Model
 {
     class Alimento
     {
-        public string _nome { get; set; }
-        public float _precoUnitario { get; set; }
-        public float _quantidade { get; set; }
-        public float _precoFinal { get; set; }
+        private string _nome { get; set; }
+        private float _precoUnitario { get; set; }
+        private float _quantidade { get; set; }
+        private float _precoFinal { get; set; }
 
         public Alimento(string nome, float precoUnitario)
         {

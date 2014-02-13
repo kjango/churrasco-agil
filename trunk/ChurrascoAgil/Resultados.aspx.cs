@@ -1,6 +1,7 @@
 ﻿using ChurrascoAgil.Utils;
 using System;
 using System.Web.UI.WebControls;
+using ChurrascoAgil.Utils.Controller;
 
 namespace ChurrascoAgil
 {
@@ -8,6 +9,10 @@ namespace ChurrascoAgil
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Calculo ctrl = new Calculo();
+
+            ctrl.calcular();
+
             string homens = Request.Params["homens"];
 
             TableRow row = new TableRow();
