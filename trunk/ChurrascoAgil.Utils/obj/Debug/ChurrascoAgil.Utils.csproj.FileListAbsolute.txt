@@ -1,0 +1,5 @@
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.dll
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.pdb
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.csprojResolveAssemblyReference.cache
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.dll
+C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.pdb
