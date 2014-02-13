@@ -8,7 +8,7 @@ namespace ChurrascoAgil.Utils.Dao
 {
     class CarneDao : Dao
     {
-        private override void select()
+        protected override void select()
         {
             base.con.Open();
             // fazer select
