@@ -49,7 +49,7 @@ namespace ChurrascoAgil.Utils.Dao
         /// <summary>
         /// Faz o select dos itens no banco de dados
         /// </summary>
-        private abstract void select();
+        protected abstract void select();
  
     }
 }
