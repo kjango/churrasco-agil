@@ -41,9 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Calculo.cs" />
-    <Compile Include="Dao\BebidaDao.cs" />
-    <Compile Include="Dao\CarneDao.cs" />
-    <Compile Include="Dao\Dao.cs" />
+    <Compile Include="Dao\AlimentoDao.cs" />
     <Compile Include="HelloWorld.cs" />
     <Compile Include="Model\Alimento.cs" />
     <Compile Include="Model\Quantidade.cs" />
