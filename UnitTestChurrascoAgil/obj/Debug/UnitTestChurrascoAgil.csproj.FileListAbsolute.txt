@@ -1,0 +1,5 @@
+C:\Users\Disguise\Desktop\Churrasco Ágil\UnitTestChurrascoAgil\bin\Debug\UnitTestChurrascoAgil.dll
+C:\Users\Disguise\Desktop\Churrasco Ágil\UnitTestChurrascoAgil\bin\Debug\UnitTestChurrascoAgil.pdb
+C:\Users\Disguise\Desktop\Churrasco Ágil\UnitTestChurrascoAgil\obj\Debug\UnitTestChurrascoAgil.csprojResolveAssemblyReference.cache
+C:\Users\Disguise\Desktop\Churrasco Ágil\UnitTestChurrascoAgil\obj\Debug\UnitTestChurrascoAgil.dll
+C:\Users\Disguise\Desktop\Churrasco Ágil\UnitTestChurrascoAgil\obj\Debug\UnitTestChurrascoAgil.pdb
