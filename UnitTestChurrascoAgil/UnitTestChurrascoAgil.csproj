@@ -53,6 +53,16 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChurrascoAgil.Utils\ChurrascoAgil.Utils.csproj">
+      <Project>{4253fe55-561c-47cb-b419-54f6b70a9149}</Project>
+      <Name>ChurrascoAgil.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChurrascoAgil\ChurrascoAgil.csproj">
+      <Project>{5a30ba80-3c04-495e-b5ca-498590526f9b}</Project>
+      <Name>ChurrascoAgil</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
