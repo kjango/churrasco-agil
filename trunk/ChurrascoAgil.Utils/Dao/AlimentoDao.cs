@@ -36,13 +36,27 @@ namespace ChurrascoAgil.Utils.Dao
         /// </summary>
         /// <param name="alimento"></param>
         /// <returns></returns>
-        public List<Alimento> select(string alimento)
+        public List<Alimento> select(string tableName)
         {
             List<Alimento> listagem = new List<Alimento>();
 
             con.Open();
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM item WHERE tipo = '" 
+                + tableName + "'", con);
 
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM " + alimento, con);
+            MySqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                Alimento a = new Alimento(
+                    reader.GetString("nome"),
+                    reader.GetFloat("precoUnitario"),
+                    reader.GetString("tipo"),
+                    reader.GetFloat("qtdeBase")
+                    );
+
+                listagem.Add(a);
+            }
 
             con.Close();
 
