@@ -11,7 +11,7 @@ namespace ChurrascoAgil
         {
             Calculo ctrl = new Calculo();
 
-            ctrl.calcular();
+            //ctrl.calcular();
 
             string homens = Request.Params["homens"];
 

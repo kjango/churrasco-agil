@@ -36,13 +36,6 @@
                         </div>
                     </td>
                     <td>
-                                       <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-                    <asp:ListItem>Alcatra</asp:ListItem>
-                    <asp:ListItem>Alcatra</asp:ListItem>
-                    <asp:ListItem>Alcatra</asp:ListItem>
-                </asp:CheckBoxList>
-                    </td>
-                    <td>
                         <asp:Button ID="Button1" CssClass="btn btn-primary" runat="server" Text="Próximo" OnClick="Button1_Click" Width="79px" />
                     </td>
                 </tr>

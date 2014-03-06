@@ -1,8 +1,3 @@
-C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.dll
-C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.pdb
-C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.csprojResolveAssemblyReference.cache
-C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.dll
-C:\Users\Guilherme\Documents\Visual Studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.pdb
 C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.csprojResolveAssemblyReference.cache
 C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.dll
 C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.pdb
@@ -10,5 +5,10 @@ C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\bin\Debug\Churrasc
 C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.pdb
 C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\bin\Debug\UnitTestChurrascoAgil.dll
 C:\Users\Disguise\Desktop\Churrasco Ágil\ChurrascoAgil.Utils\bin\Debug\UnitTestChurrascoAgil.pdb
+C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.dll
+C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\ChurrascoAgil.Utils.pdb
 C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\UnitTestChurrascoAgil.dll
 C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\bin\Debug\UnitTestChurrascoAgil.pdb
+C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.csprojResolveAssemblyReference.cache
+C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.dll
+C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\ChurrascoAgil.Utils\obj\Debug\ChurrascoAgil.Utils.pdb
