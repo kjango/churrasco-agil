@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChurrascoAgil.Utils.Model
 {
-    class Alimento
+    public class Alimento
     {
         private string _nome;
 
@@ -16,23 +16,23 @@ namespace ChurrascoAgil.Utils.Model
             set { _nome = value; }
         }
 
-        private float _precoUnitario;
+        private double _precoUnitario;
 
-        public float PrecoUnitario
+        public double PrecoUnitario
         {
             get { return _precoUnitario; }
             set { _precoUnitario = value; }
         }
-        private float _quantidadeBase;
+        private double _quantidade;
 
-        public float QuantidadeBase
+        public double Quantidade
         {
-            get { return _quantidadeBase; }
-            set { _quantidadeBase = value; }
+            get { return _quantidade; }
+            set { _quantidade = value; }
         }
-        private float _precoFinal;
+        private double _precoFinal;
 
-        public float PrecoFinal
+        public double PrecoFinal
         {
             get { return _precoFinal; }
             set { _precoFinal = value; }
@@ -47,19 +47,19 @@ namespace ChurrascoAgil.Utils.Model
         }
 
 
-        public Alimento(string nome, float precoUnitario)
+        public Alimento(string nome, double precoUnitario)
         {
             _nome = nome;
             _precoUnitario = precoUnitario;
         }
 
-        public Alimento(string nome, float precoUnitario, 
-            string tipo, float quantidade)
+        public Alimento(string nome, double precoUnitario, 
+            string tipo, double quantidade)
         {
             _nome = nome;
             _precoUnitario = precoUnitario;
             _tipo = tipo;
-            _quantidadeBase = quantidade;
+            _quantidade = quantidade;
         }
        
     }

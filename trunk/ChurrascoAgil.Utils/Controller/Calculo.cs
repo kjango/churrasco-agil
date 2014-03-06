@@ -17,9 +17,16 @@ namespace ChurrascoAgil.Utils.Controller
             return resultado;
         }
 
-        public List<Alimento> calculaCarnivoroParcial() 
+        public List<Alimento> calculaCarnivoroParcial(double qTotCarne, List<Alimento> listao)
         {
+            List<Alimento> goku = new List<Alimento>();
+            double qAux = qTotCarne / listao.Count;
 
+            foreach (Alimento alCapone in listao)
+            {
+                alCapone.Quantidade = qAux;
+            }
+            return goku;
         }
 
     }
