@@ -17,7 +17,7 @@ namespace UnitTestChurrascoAgil
         {
             Calculo calculo = new Calculo();
 
-            Assert.AreEqual(5.5, calculo.calculaCarnivoroTotal(5, 7, 1));
+            Assert.AreEqual(calculo.calculaCarnivoroTotal(5, 7, 1), (double)5.5);
         }
     }
 }

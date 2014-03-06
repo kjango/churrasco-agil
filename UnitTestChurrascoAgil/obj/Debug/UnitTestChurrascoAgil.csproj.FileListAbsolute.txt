@@ -37,3 +37,37 @@ C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\UnitTestC
 C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\UnitTestChurrascoAgil\bin\Debug\EntityFramework.xml
 C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Guilherme\documents\visual studio 2013\Projects\ChurrascoAgil\UnitTestChurrascoAgil\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\UnitTestChurrascoAgil.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\UnitTestChurrascoAgil.pdb
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\ChurrascoAgil.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\ChurrascoAgil.Utils.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\System.Web.Optimization.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Owin.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\EntityFramework.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\ChurrascoAgil.Utils.pdb
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\ChurrascoAgil.pdb
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\System.Web.Optimization.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\EntityFramework.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\obj\Debug\UnitTestChurrascoAgil.csprojResolveAssemblyReference.cache
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\obj\Debug\UnitTestChurrascoAgil.dll
+C:\Users\kji\workspace\churrascoagil\UnitTestChurrascoAgil\obj\Debug\UnitTestChurrascoAgil.pdb
