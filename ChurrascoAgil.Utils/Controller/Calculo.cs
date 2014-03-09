@@ -5,29 +5,80 @@ namespace ChurrascoAgil.Utils.Controller
 {
     public class Calculo
     {
-        // heuristicas
-        private double qh = 0.5;
-        private double qm = 0.4;
-        private double qc = 0.2;
+        // heuristicas de carnes
+        private const double HR_CARNE_HOMEM = 0.5;
+        private const double HR_CARNE_MULHER = 0.4;
+        private const double HR_CARNE_CRIANCA = 0.2;
 
-        public double calculaCarnivoroTotal(int numHomens, int numMulheres, int numCriancas)
+        // heuristicas de bebidas
+        private const double HR_BEBIDA_HOMEM = 1;
+        private const double HR_BEBIDA_MULHER = 0.5;
+        private const double HR_BEBIDA_CRIANCA = 0.3;
+
+        /// <summary>
+        /// Calcula o total de carnes em KG
+        /// </summary>
+        /// <param name="numHomens"></param>
+        /// <param name="numMulheres"></param>
+        /// <param name="numCriancas"></param>
+        /// <returns></returns>
+        public double calculaQuantidadeTotalCarne(int numHomens, int numMulheres, int numCriancas)
         {
-            double resultado = qh * numHomens + qm * numMulheres + qc * numCriancas;
+            double resultado = HR_CARNE_HOMEM * numHomens + HR_CARNE_MULHER * numMulheres + HR_CARNE_CRIANCA * numCriancas;
 
             return resultado;
         }
 
-        public List<Alimento> calculaCarnivoroParcial(double qTotCarne, List<Alimento> listao)
+        /// <summary>
+        /// Preenche a lista de carnes com as quantidades e preços
+        /// </summary>
+        /// <param name="totalCarne"></param>
+        /// <param name="listaCarne"></param>
+        /// <returns></returns>
+        public List<Alimento> calculaQuantidadeCarne(double totalCarne, List<Alimento> listaCarne)
         {
-            List<Alimento> goku = new List<Alimento>();
-            double qAux = qTotCarne / listao.Count;
+            double quantidadeUnitaria = totalCarne / listaCarne.Count;
 
-            foreach (Alimento alCapone in listao)
+            foreach (Alimento carne in listaCarne)
             {
-                alCapone.Quantidade = qAux;
+                carne.Quantidade = quantidadeUnitaria;
+                carne.PrecoFinal = carne.PrecoUnitario * quantidadeUnitaria;
             }
-            return goku;
+
+            return listaCarne;
         }
 
+        /// <summary>
+        /// Calcula os litros de bebidas necessárias
+        /// </summary>
+        /// <param name="numHomens"></param>
+        /// <param name="numMulheres"></param>
+        /// <param name="numCriancas"></param>
+        /// <returns></returns>
+        public double calculaLitrosTotalBebida(int numHomens, int numMulheres, int numCriancas)
+        {
+            double resultado = numHomens * HR_BEBIDA_HOMEM + numMulheres * HR_BEBIDA_MULHER + numCriancas * HR_BEBIDA_CRIANCA;
+
+            return resultado;
+        }
+
+        /// <summary>
+        /// Preenche a lista de bebidas com as quantidades e o preço
+        /// </summary>
+        /// <param name="totalBebida"></param>
+        /// <param name="listaBebidas"></param>
+        /// <returns></returns>
+        public List<Alimento> calculaLitrosBebida(double totalBebida, List<Alimento> listaBebidas)
+        {
+            double litrosPorBebida = totalBebida / listaBebidas.Count;
+
+            foreach (Alimento bebida in listaBebidas)
+            {
+                bebida.Quantidade = litrosPorBebida;
+                bebida.PrecoFinal = bebida.PrecoUnitario * litrosPorBebida;
+            }
+
+            return listaBebidas;
+        }
     }
 }

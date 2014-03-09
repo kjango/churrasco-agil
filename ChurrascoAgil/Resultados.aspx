@@ -31,8 +31,8 @@
         <asp:Table ID="Table2" runat="server" CssClass="table">
             <asp:TableHeaderRow>
                 <asp:TableHeaderCell>Bebida</asp:TableHeaderCell>
-                <asp:TableHeaderCell>Preço/Kg</asp:TableHeaderCell>
-                <asp:TableHeaderCell>Kg necessários</asp:TableHeaderCell>
+                <asp:TableHeaderCell>Preço/Litros</asp:TableHeaderCell>
+                <asp:TableHeaderCell>Litros necessários</asp:TableHeaderCell>
                 <asp:TableHeaderCell>Preço Final</asp:TableHeaderCell>
             </asp:TableHeaderRow>
         </asp:Table>
