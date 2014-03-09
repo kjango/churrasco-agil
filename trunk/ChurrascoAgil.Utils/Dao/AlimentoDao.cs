@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ChurrascoAgil.Utils.Dao
 {
-    internal class AlimentoDao
+    public class AlimentoDao
     {
         private string connectionString = "server=localhost;user=root;" +
             "password=1234;database=churrascoagil";
@@ -36,13 +36,13 @@ namespace ChurrascoAgil.Utils.Dao
         /// </summary>
         /// <param name="alimento"></param>
         /// <returns></returns>
-        public List<Alimento> select(string tableName)
+        public List<Alimento> select(string tipoAlimento)
         {
             List<Alimento> listagem = new List<Alimento>();
 
             con.Open();
             MySqlCommand cmd = new MySqlCommand("SELECT * FROM item WHERE tipo = '" 
-                + tableName + "'", con);
+                + tipoAlimento + "'", con);
 
             MySqlDataReader reader = cmd.ExecuteReader();
 
@@ -50,9 +50,9 @@ namespace ChurrascoAgil.Utils.Dao
             {
                 Alimento a = new Alimento(
                     reader.GetString("nome"),
-                    reader.GetFloat("precoUnitario"),
-                    reader.GetString("tipo"),
-                    reader.GetFloat("qtdeBase")
+                    reader.GetDouble("precoUnitario"),
+                    reader.GetString("tipo")
+                    /*reader.GetFloat("qtdeBase")*/
                     );
 
                 listagem.Add(a);

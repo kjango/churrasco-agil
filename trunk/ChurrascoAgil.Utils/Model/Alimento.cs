@@ -54,12 +54,12 @@ namespace ChurrascoAgil.Utils.Model
         }
 
         public Alimento(string nome, double precoUnitario, 
-            string tipo, double quantidade)
+            string tipo /*, double quantidade*/)
         {
             _nome = nome;
             _precoUnitario = precoUnitario;
             _tipo = tipo;
-            _quantidade = quantidade;
+            //_quantidade = quantidade;
         }
        
     }
