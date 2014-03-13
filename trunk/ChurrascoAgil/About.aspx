@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
-    <h3>Your application description page.</h3>
-    <p>Use this area to provide additional information.</p>
+    <h3>Métodos Ágeis.</h3>
+    <p>Projeto desenvolvido para a disciplina de Métodos Ágeis de desenvolvimento de software.</p>
 </asp:Content>

@@ -80,5 +80,22 @@ namespace ChurrascoAgil.Utils.Controller
 
             return listaBebidas;
         }
+
+        /// <summary>
+        /// Clacula o preço final a partir de uma lista de alimentos
+        /// </summary>
+        /// <param name="listaAlimento"></param>
+        /// <returns></returns>
+        public double calculaPrecoFinalAlimento(List<Alimento> listaAlimento)
+        {
+            double precoFinal = 0;
+
+            foreach (Alimento alimento in listaAlimento) 
+            {
+                precoFinal += alimento.PrecoFinal;
+            }
+
+            return precoFinal;
+        }
     }
 }

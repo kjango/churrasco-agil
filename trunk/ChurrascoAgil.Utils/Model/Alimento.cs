@@ -46,6 +46,13 @@ namespace ChurrascoAgil.Utils.Model
             set { _tipo = value; }
         }
 
+        /// <summary>
+        /// Construtora para fins de teste
+        /// </summary>
+        /// <param name="precoFinal"></param>
+        public Alimento()
+        {
+        }
 
         public Alimento(string nome, double precoUnitario)
         {
