@@ -48,12 +48,6 @@
     <Compile Include="Model\Quantidade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnitTestChurrascoAgil\UnitTestChurrascoAgil.csproj">
-      <Project>{200215bb-8e69-44f3-8e11-23d08b8b7150}</Project>
-      <Name>UnitTestChurrascoAgil</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
